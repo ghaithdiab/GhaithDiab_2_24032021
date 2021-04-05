@@ -21,21 +21,24 @@
     <!-----Links------->
     <link rel="shortcut icon" type="image/x-icon" href="img/logo/Reservia.svg">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
     <title>Reservia</title>
 </head>
 <body>
         <!--header section-->
-  <header>
+  <header>  
     <div class="logo_div">
       <a href="index.html"><img src="img/logo/Reservia@3x.png" alt="logo"/></a>
     </div>
-    <nav>
-      <ul>
-        <li><a href="#" class="link_item1">Hébergement</a></li>
-        <li><a href="#activites_section" class="link_item2">Activités</a></li>
-        <li><a href="#" class="link_item3">S'inscrire</a></li>
-      </ul>
-    </nav>
+    <div class="right_side">
+      <a href="#" class="inscrire">S'inscrire</a>
+      <nav>
+        <ul>
+          <li><a href="#" class="link_item1">Hébergement</a></li>
+          <li><a href="#activites_section" class="link_item2">Activités</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
         <!--section1-->
   <section id="section1">
@@ -47,7 +50,7 @@
       <div class="input_div">
         <button type="button" class="map_btn"></button>
         <input type="search" placeholder="Marseille , France"/>
-        <button type="button" class="search_btn">Rechercher</button>
+        <button type="button" class="search_btn"></button>
       </div>
       <div class="filtres_div">
         <label id="filtres">Filtres</label>
@@ -74,28 +77,28 @@
       </div>
     </form>
     <div class="pargraph_div">
-      <img src="img/icon/info-circle-solid.svg" alt="information" class="img_information" height="20" width="20">
+      <img src="img/icon/info.svg" alt="information" class="img_information" height="20" width="20">
       <p class="paragraph_info">Plus de 500 logement sont disponibles dans cette ville</p>
     </div>
   </section>
     <!--section2-->
-  <section id="section2">
+  <div id="section2">
     <article>
-      <h1>Hébergement à Marseille</h1>
+      <h2>Hébergement à Marseille</h2>
       <div class="container">
         <div>
           <span class="hotel1"></span>
-          <h3 class="hotel1_title">Auberge la cannebière</h3>
-          <p>Nuit à partir de 25 €</p>
-          <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
-          <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
-          <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
-          <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
-          <a href="#"><img src="img/icon/star-solid.svg" alt="icon"></a>
+            <h3>Auberge la cannebière</h3>
+            <p>Nuit à partir de 25 €</p>
+            <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
+            <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
+            <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
+            <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
+            <a href="#"><img src="img/icon/star-solid.svg" alt="icon"></a> 
         </div>
         <div>
           <span class="hotel2"></span>
-          <h3 class="hotel2_title">Hôtel du Port</h3>
+          <h3>Hôtel du Port</h3>
           <p>Nuit à partir de 52 €</p>
           <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
           <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
@@ -105,7 +108,7 @@
         </div>
         <div>
           <span class="hotel3"></span>
-          <h3 class="hotel3_title">Hôtel  Les mouettes</h3>
+          <h3>Hôtel  Les mouettes</h3>
           <p>Nuit à partir de 76 €</p>
           <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
           <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
@@ -115,7 +118,7 @@
         </div>
         <div>
           <span class="hotel4"></span>
-          <h3 class="hotel4_title">Hôtel de la mer</h3>
+          <h3>Hôtel de la mer</h3>
           <p>Nuit à partir de 46 €</p>
           <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
           <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
@@ -125,7 +128,7 @@
         </div>
         <div>
           <span class="hotel5"></span>
-          <h3 class="hotel5_title">Auberge Le Panier</h3>
+          <h3>Auberge Le Panier</h3>
           <p>Nuit à partir de 23 €</p>
           <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
           <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
@@ -135,27 +138,27 @@
         </div>
         <div>
           <span class="hotel6"></span>
-          <h3 class="hotel6_title">Hôtel chez Amina</h3>
+          <h3>Hôtel chez Amina</h3>
           <p>Nuit à partir de 96 €</p>
-          <a href="#""><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
-          <a href="#""><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
-          <a href="#""><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
-          <a href="#""><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
-          <a href="#""><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
+          <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
+          <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
+          <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
+          <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
+          <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
         </div>
       </div>
       <a href="#" class="plus">Afficher Plus</a>
     </article>
     <aside id="populaires">
       <div class="title_div">
-        <h1>Les plus populaires</h1>
+        <h2>Les plus populaires</h2>
         <img src="img/icon/chart-line-solid.svg" alt="icon"/>
       </div>
       <div class="populaires_container">
         <div class="populaires_div">
           <span class="populaires_hotel1"></span>
           <div>
-            <h3>Hôtel le soleil du matain</h3>
+            <h3>Hôtel le soleil du matin</h3>
             <p>Nuit à partir de 128€</p>
             <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
             <a href="#"><img src="img/icon/star-solid-blue.svg" alt="icon"></a>
@@ -190,7 +193,7 @@
         </div>
       </div>
     </aside>
-  </section>
+  </div>
         <!--section3-->
   <section id="activites_section">
     <h1>Activités à Marseille</h1>
