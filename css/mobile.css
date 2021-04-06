@@ -201,12 +201,15 @@
   }
   .populaires_div .populaires_hotel1{
     background: url("../img/mobile/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg") no-repeat center /cover;
+    height: 100%;
   }
   .populaires_div .populaires_hotel2{
     background: url("../img/mobile/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg") no-repeat center /cover;
+    height: 100%;
   }
   .populaires_div .populaires_hotel3{
     background: url("../img/mobile/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg") no-repeat center /cover;
+    height: 100%;
   }
   #section2 article{
     background-color: #fff;
