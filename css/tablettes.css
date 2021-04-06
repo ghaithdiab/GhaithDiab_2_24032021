@@ -1,0 +1,239 @@
+@media (min-width:767px) and (max-width:1024px){
+  .logo_div a img{
+    width: 11%;
+    height: 7%;
+    position: absolute;
+    top:1%;
+  }
+  form{
+    width: 100%;
+  }
+  .filtres_div{
+    justify-content: stretch;
+  }
+  .switch{
+    margin-right: 20px;
+  }
+  .switch1{
+    margin-right: 20px;
+  }
+  .switch2{
+    margin-right: 20px;
+  }
+  .switch3{
+    margin-left:20px;
+  }
+  input:hover + .slider:before {
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  input:checked + .slider:before {
+    -moz-transform: translateX(160px);
+    -ms-transform: translateX(160px);
+    -o-transform: translateX(160px);
+    transform: translateX(160px);
+    background-color: #fff;
+  }
+  input:hover ~ .title:before{
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  input:checked ~ .title:before{
+    -moz-transform: translateX(-60px);
+    -ms-transform: translateX(-60px);
+    -o-transform: translateX(-60px);
+    transform: translateX(-60px);
+  }
+  input:hover + .slider1:before {
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  input:checked + .slider1:before {
+    -moz-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    -o-transform: translateX(100px);
+    transform: translateX(100px);
+    background-color: #fff;
+  }
+  input:hover ~ .title1:before{
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  input:checked ~ .title1:before{
+    -moz-transform: translateX(-50px);
+    -ms-transform: translateX(-50px);
+    -o-transform: translateX(-50px);
+    transform: translateX(-50px);
+  }
+  input:hover + .slider2:before {
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  input:checked + .slider2:before {
+    -moz-transform: translateX(160px);
+    -ms-transform: translateX(160px);
+    -o-transform: translateX(160px);
+    transform: translateX(160px);
+    background-color: #fff;
+  }
+  input:hover ~ .title2:before{
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  input:checked ~ .title2:before{
+    -moz-transform: translateX(-70px);
+    -ms-transform: translateX(-70px);
+    -o-transform: translateX(-70px);
+    transform: translateX(-70px);
+  }
+  input:hover + .slider3:before {
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  input:checked + .slider3:before {
+    -moz-transform: translateX(210px);
+    -ms-transform: translateX(210px);
+    -o-transform: translateX(210px);
+    transform: translateX(210px);
+    background-color: #fff;
+  }
+  input:hover ~ .title3:before{
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  input:checked ~ .title3:before{
+    -moz-transform: translateX(-70px);
+    -ms-transform: translateX(-70px);
+    -o-transform: translateX(-70px);
+    transform: translateX(-70px);
+  }
+  #section2 article .container{
+    height: auto;
+    justify-content: stretch;
+  }
+  .title_div h2{
+    font-size: 1.2em;
+  }
+  div .hotel1{
+    background: url("../img/tablet/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg") no-repeat center /cover; 
+  }
+  div .hotel2{
+    background: url("../img/tablet/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg") no-repeat center /cover;
+  }
+  div .hotel3{
+    background: url("../img/tablet/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg") no-repeat center /cover;
+  }
+  div .hotel4{
+    background: url("../img/tablet/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg") no-repeat center /cover;
+  }
+  div .hotel5{
+    background: url("../img/tablet/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg") no-repeat center /cover;
+  }
+  div .hotel6{
+    background: url("../img/tablet/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg") no-repeat center /cover;
+  }
+  .populaires_div .populaires_hotel1{
+    background: url("../img/tablet/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg") no-repeat center /cover;
+    height: 100px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+  }
+  .populaires_div .populaires_hotel2{
+    background: url("../img/tablet/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg") no-repeat center /cover;
+    height: 100px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+  }
+  .populaires_div .populaires_hotel3{
+    background: url("../img/tablet/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg") no-repeat center /cover;
+    height: 100px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+  }
+  .container div{
+    width: 45%;
+  }
+  .populaires_container{
+    align-content: space-around;
+    margin: 0;
+  }
+  .populaires_div{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin: 20px 10px 20px 0px;
+  }
+  .sub_div1 span{
+    height: 150px;
+  }
+  .sub_div2 span{
+    height: 125px;
+  }
+  .sub_div3 span{
+    height: 150px;
+  }
+  .sub_div4 span{
+    height: 150px;
+  }
+  .sub_div5 span{
+    height: 150px;
+  }
+  .sub_div6 span{
+    height: 150px;
+  }
+  .activites_div .sub_div1{
+    height: 225px;
+    width: 30%;
+    margin-bottom: 10px;
+  }
+  .activites_div .sub_div2{
+    width: 30%;
+    margin-top: 10px;
+    height: 225px;
+  }
+  .activites_div .sub_div3{
+    width: 30%;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  .activites_div .sub_div4{
+    height: 225px;
+    width: 30%;
+    margin-top: 5px;
+  }
+  .activites_div .sub_div5{
+    width: 30%;
+  }
+  .activites_div .sub_div6{
+    width: 30%;
+  }
+  .sub_div1:hover ,.sub_div2:hover,.sub_div3:hover,.sub_div4:hover,.sub_div5:hover,.sub_div6:hover{
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform:none;
+    transform: none;
+    }
+
+}
