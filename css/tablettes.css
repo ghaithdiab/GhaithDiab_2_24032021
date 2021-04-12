@@ -1,7 +1,10 @@
-@media (min-width:767px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1024px){
+  *:active{
+    -webkit-tap-highlight-color: transparent;
+  }
   .logo_div a img{
     width: 11%;
-    height: 7%;
+    height: 5%;
     position: absolute;
     top:1%;
   }
@@ -21,7 +24,11 @@
     margin-right: 20px;
   }
   .switch3{
-    margin-left:20px;
+    margin-left:70px;
+  }
+  .slider:before {
+    position: absolute;
+    top: -1px;
   }
   input:hover + .slider:before {
     -moz-transform: none;
@@ -30,11 +37,14 @@
     transform: none;
   }
   input:checked + .slider:before {
-    -moz-transform: translateX(160px);
-    -ms-transform: translateX(160px);
-    -o-transform: translateX(160px);
-    transform: translateX(160px);
-    background-color: #fff;
+  -moz-transform: translateX(145px);
+  -ms-transform: translateX(145px);
+  -o-transform: translateX(145px);
+  transform: translateX(145px);
+  background-color: #fff;
+  }
+  input:checked + .slider {
+    background-color: #DEECFF;
   }
   input:hover ~ .title:before{
     -moz-transform: none;
@@ -43,10 +53,10 @@
     transform: none;
   }
   input:checked ~ .title:before{
-    -moz-transform: translateX(-60px);
-    -ms-transform: translateX(-60px);
-    -o-transform: translateX(-60px);
-    transform: translateX(-60px);
+    -moz-transform: translateX(-45px);
+    -ms-transform: translateX(-45px);
+    -o-transform: translateX(-45px);
+    transform: translateX(-45px);
   }
   input:hover + .slider1:before {
     -moz-transform: none;
@@ -55,11 +65,11 @@
     transform: none;
   }
   input:checked + .slider1:before {
-    -moz-transform: translateX(100px);
-    -ms-transform: translateX(100px);
-    -o-transform: translateX(100px);
-    transform: translateX(100px);
-    background-color: #fff;
+  -moz-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  -o-transform: translateX(100px);
+  transform: translateX(100px);
+  background-color: #fff;
   }
   input:hover ~ .title1:before{
     -moz-transform: none;
@@ -68,10 +78,10 @@
     transform: none;
   }
   input:checked ~ .title1:before{
-    -moz-transform: translateX(-50px);
-    -ms-transform: translateX(-50px);
-    -o-transform: translateX(-50px);
-    transform: translateX(-50px);
+  -moz-transform: translateX(-40px);
+  -ms-transform: translateX(-40px);
+  -o-transform: translateX(-40px);
+  transform: translateX(-40px);
   }
   input:hover + .slider2:before {
     -moz-transform: none;
@@ -80,11 +90,11 @@
     transform: none;
   }
   input:checked + .slider2:before {
-    -moz-transform: translateX(160px);
-    -ms-transform: translateX(160px);
-    -o-transform: translateX(160px);
-    transform: translateX(160px);
-    background-color: #fff;
+  -moz-transform: translateX(140px);
+  -ms-transform: translateX(140px);
+  -o-transform: translateX(140px);
+  transform: translateX(140px);
+  background-color: #fff;
   }
   input:hover ~ .title2:before{
     -moz-transform: none;
@@ -93,10 +103,10 @@
     transform: none;
   }
   input:checked ~ .title2:before{
-    -moz-transform: translateX(-70px);
-    -ms-transform: translateX(-70px);
-    -o-transform: translateX(-70px);
-    transform: translateX(-70px);
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -o-transform: translateX(-40px);
+    transform: translateX(-40px);
   }
   input:hover + .slider3:before {
     -moz-transform: none;
@@ -105,11 +115,11 @@
     transform: none;
   }
   input:checked + .slider3:before {
-    -moz-transform: translateX(210px);
-    -ms-transform: translateX(210px);
-    -o-transform: translateX(210px);
-    transform: translateX(210px);
-    background-color: #fff;
+  -moz-transform: translateX(190px);
+  -ms-transform: translateX(190px);
+  -o-transform: translateX(190px);
+  transform: translateX(190px);
+  background-color: #fff;
   }
   input:hover ~ .title3:before{
     -moz-transform: none;
@@ -118,10 +128,10 @@
     transform: none;
   }
   input:checked ~ .title3:before{
-    -moz-transform: translateX(-70px);
-    -ms-transform: translateX(-70px);
-    -o-transform: translateX(-70px);
-    transform: translateX(-70px);
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -o-transform: translateX(-40px);
+    transform: translateX(-40px);
   }
   #section2 article .container{
     height: auto;
@@ -175,13 +185,16 @@
   .container div{
     width: 45%;
   }
+  #section2 aside{
+    margin-right: 15px;
+  }
   .populaires_container{
     align-content: space-around;
     margin: 0;
   }
   .populaires_div{
     width: 100%;
-    height: auto;
+    height: 274px;
     flex-direction: column;
     margin: 20px 10px 20px 0px;
   }
@@ -202,6 +215,9 @@
   }
   .sub_div6 span{
     height: 150px;
+  }
+  .sub-div2-title{
+    margin-top: 35px;
   }
   .activites_div .sub_div1{
     height: 225px;

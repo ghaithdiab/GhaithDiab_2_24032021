@@ -1,10 +1,15 @@
 @media (max-width :767px){
+  *:active{
+    -webkit-tap-highlight-color: transparent;
+  }
+  /*-----------header style----------------*/
   .logo_div{
     height:100px;
     width: 1%;
   }
   .logo_div a img{
-    width: 15%
+    width: 20%;
+    top: 4%;
   }
   .right_side{
     width: 99%;
@@ -36,10 +41,11 @@
   nav ul li .link_item2:hover{
     border-top: none;
   }
+  /*----------------end header style---------------*/
+  /*-----form section---*/
   #section1{
     margin-top: 25px;
   }
-  /*-----form section---*/
   form{
     width: 90%;
   }
@@ -64,6 +70,11 @@
     width: 100%;
     margin-bottom: 10px;
   }
+  .slider:before {
+    position: absolute;
+    height: 46px;
+    top: -1px;
+  }
   input:hover + .slider:before {
     -moz-transform: none;
     -ms-transform: none;
@@ -71,11 +82,11 @@
     transform: none;
   }
   input:checked + .slider:before {
-    -moz-transform: translateX(160px);
-    -ms-transform: translateX(160px);
-    -o-transform: translateX(160px);
-    transform: translateX(160px);
-    background-color: #fff;
+  -moz-transform: translateX(145px);
+  -ms-transform: translateX(145px);
+  -o-transform: translateX(145px);
+  transform: translateX(145px);
+  background-color: #fff;
   }
   input:hover ~ .title:before{
     -moz-transform: none;
@@ -84,10 +95,14 @@
     transform: none;
   }
   input:checked ~ .title:before{
-    -moz-transform: translateX(-60px);
-    -ms-transform: translateX(-60px);
-    -o-transform: translateX(-60px);
-    transform: translateX(-60px);
+    -webkit-transform: translateX(-45px);
+    -moz-transform: translateX(-45px);
+    -ms-transform: translateX(-45px);
+    -o-transform: translateX(-45px);
+    transform: translateX(-45px);
+  }
+  .slider1:before {
+    width: 30%;
   }
   input:hover + .slider1:before {
     -moz-transform: none;
@@ -96,10 +111,10 @@
     transform: none;
   }
   input:checked + .slider1:before {
-    -moz-transform: translateX(100px);
-    -ms-transform: translateX(100px);
-    -o-transform: translateX(100px);
-    transform: translateX(100px);
+    -moz-transform: translateX(115px);
+    -ms-transform: translateX(115px);
+    -o-transform: translateX(115px);
+    transform: translateX(115px);
     background-color: #fff;
   }
   input:hover ~ .title1:before{
@@ -109,10 +124,10 @@
     transform: none;
   }
   input:checked ~ .title1:before{
-    -moz-transform: translateX(-50px);
-    -ms-transform: translateX(-50px);
-    -o-transform: translateX(-50px);
-    transform: translateX(-50px);
+    -moz-transform: translateX(-55px);
+    -ms-transform: translateX(-55px);
+    -o-transform: translateX(-55px);
+    transform: translateX(-55px);
   }
   .switch1{
     position: relative;
@@ -129,10 +144,10 @@
     transform: none;
   }
   input:checked + .slider2:before {
-    -moz-transform: translateX(160px);
-    -ms-transform: translateX(160px);
-    -o-transform: translateX(160px);
-    transform: translateX(160px);
+    -moz-transform: translateX(140px);
+    -ms-transform: translateX(140px);
+    -o-transform: translateX(140px);
+    transform: translateX(140px);
     background-color: #fff;
   }
   input:hover ~ .title2:before{
@@ -142,10 +157,10 @@
     transform: none;
   }
   input:checked ~ .title2:before{
-    -moz-transform: translateX(-70px);
-    -ms-transform: translateX(-70px);
-    -o-transform: translateX(-70px);
-    transform: translateX(-70px);
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -o-transform: translateX(-40px);
+    transform: translateX(-40px);
   }
   input:hover + .slider3:before {
     -moz-transform: none;
@@ -154,10 +169,10 @@
     transform: none;
   }
   input:checked + .slider3:before {
-    -moz-transform: translateX(210px);
-    -ms-transform: translateX(210px);
-    -o-transform: translateX(210px);
-    transform: translateX(210px);
+    -moz-transform: translateX(190px);
+    -ms-transform: translateX(190px);
+    -o-transform: translateX(190px);
+    transform: translateX(190px);
     background-color: #fff;
   }
   input:hover ~ .title3:before{
@@ -167,19 +182,28 @@
     transform: none;
   }
   input:checked ~ .title3:before{
-    -moz-transform: translateX(-70px);
-    -ms-transform: translateX(-70px);
-    -o-transform: translateX(-70px);
-    transform: translateX(-70px);
+    -moz-transform: translateX(-40px);
+    -ms-transform: translateX(-40px);
+    -o-transform: translateX(-40px);
+    transform: translateX(-40px);
   }
+  /*-----------end filtre style---------*/
+  /*------------section 2 style----------*/
   #section2{
     flex-direction: column-reverse;
+    margin-left: 0;
   }
   #section2 aside{
     width: 100%;
   }
+  .title_div{
+    margin: 0px -10px 0px 3px
+  }
   .populaires_div{
     width: 100%;
+  }
+  .title_div img{
+    margin-right: 20px;
   }
   div .hotel1{
     background: url("../img/mobile/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg") no-repeat center /cover; 
@@ -237,14 +261,23 @@
   -o-transform:none;
   transform: none;
   }
+  .sub_div1:active ,.sub_div2:active,.sub_div3:active,.sub_div4:active,.sub_div5:active,.sub_div6:active{
+    -webkit-tap-highlight-color: transparent;
+    }
+  #section2 aside{
+    border-radius: 0px;
+    padding: 0px 20px;
+  }
   #section2 article .container{
     height: auto;
     flex-direction: column;
     width: 100%;
   }
+  /*---------Activites style section-------*/
   .container div{
     width: 100%;
-    margin: 10px;
+    margin: auto;
+    margin-bottom: 20px;
   }
   .activites_div{
     flex-direction: column;
@@ -276,6 +309,7 @@
   .sub_div4 span{
     height: 150px;
   }
+  /*-----------footer------*/
   #footer{
     grid-template-columns: 100%;
   }
