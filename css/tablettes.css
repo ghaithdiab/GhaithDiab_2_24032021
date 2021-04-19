@@ -3,10 +3,10 @@
     -webkit-tap-highlight-color: transparent;
   }
   .logo_div a img{
-    width: 11%;
-    height: 5%;
+    width: 100px;
+    height: 50px;
     position: absolute;
-    top:1%;
+    top:2%;
   }
   form{
     width: 100%;
@@ -134,8 +134,14 @@
     transform: translateX(-40px);
   }
   #section2 article .container{
+    /* flex-direction: column; */
     height: auto;
-    justify-content: stretch;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+  }
+  #section2 article .container div{
+    margin: 15px 0;
   }
   .title_div h2{
     font-size: 1.2em;
@@ -196,7 +202,7 @@
     width: 100%;
     height: 274px;
     flex-direction: column;
-    margin: 20px 10px 20px 0px;
+    margin: 37px 10px 20px 0px;
   }
   .sub_div1 span{
     height: 150px;

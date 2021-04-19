@@ -17,15 +17,14 @@ header{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #fff;
 }
 .logo_div{
   width: 10%;
   margin-left: 25px;
 }
 .logo_div a img{
-  width: 5%;
-  height: 7%;
+  width:100px;
+  height: 50px;
   position: absolute;
   top:3%;
 }
@@ -37,10 +36,11 @@ header{
   }
 }
 .right_side{
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
+  float: left;
 }
 nav{
   margin-top: 25px;
@@ -128,6 +128,7 @@ form{
   height: 100%;
   width: 230px;
   border:1px solid #E8E8E8;
+  padding: 5px 10px 0px 10px;
 }
 .input_div input[type=search]:focus{
   outline: none;
@@ -543,8 +544,6 @@ article h2{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* align-content:space-around; */
-  /* margin: 10px; */
   
 }
 .container div{
