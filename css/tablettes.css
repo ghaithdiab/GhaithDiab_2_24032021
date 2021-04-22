@@ -145,6 +145,8 @@
   }
   .title_div h2{
     font-size: 1.2em;
+    margin-left: -18px;
+    margin-top: 40px;
   }
   div .hotel1{
     background: url("../img/tablet/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg") no-repeat center /cover; 
